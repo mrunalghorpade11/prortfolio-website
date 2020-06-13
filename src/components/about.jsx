@@ -11,7 +11,7 @@ class About extends Component {
           <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>I am a Master's degree student of Information Systems from Northeastern University, expected to graduate in August 2020. I am specializing in the software development track.
-               I am a proactive and self-motivated who enjoys working in challenging environments.
+               I am a proactive and self-motivated person who enjoy working in challenging environments.
               </p>
             <div className="row">
               <div className="columns contact-details">
