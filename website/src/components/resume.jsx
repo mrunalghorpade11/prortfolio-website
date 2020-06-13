@@ -13,9 +13,9 @@ class Resume extends Component {
               <div className="row item">
                 <div className="twelve columns">
                   <h3>Northeastern University</h3>
-                  <p className="info">Masters in Information Systems <span>•</span> <em className="date">July 2020</em></p>
+                  <p className="info">Masters in Information Systems <span>•</span> <em className="date">August 2020</em></p>
                   <p>
-                    Completed Various course like AED, Webtools, PSA, Devops, Networking and Cloud computing
+                    Relevant Courses : Network Structures and Cloud Computing , Application Engineering and Development, Web Development Tools and Methods, Big data Indexing technique, Development and Operations(DevOps), Database Managment and Design, Program Structures and Algorithms.   
                   </p>
                 </div>
               </div> {/* item end */}
@@ -24,8 +24,8 @@ class Resume extends Component {
                   <h3>Savitribai Phule Pune Univeristy</h3>
                   <p className="info">B.E Computer Engineering <span>•</span> <em className="date">June 2017</em></p>
                   <p>
-                    
-                    Did lot of good work                  </p>
+                   Revelant Courses : Object Oriented Programming, Software Engineering, Complier Design, Theory Of Computation, Operating System Design, Networking, Microprocessor Architecture, Microprocessor Interfacing Techniques, Maths  
+                  </p>
                 </div>
               </div> {/* item end */}
             </div> {/* main-col end */}
@@ -36,27 +36,32 @@ class Resume extends Component {
               <h1><span>Work</span></h1>
             </div>
             <div className="nine columns main-col">
+            <div className="row item">
+                <div className="twelve columns">
+                  <h3>Northeastern University</h3>
+                  <p className="info">Online Program Technician<span>•</span> <em className="date">Jan 2019 - present</em></p>
+                 <p>
+                   Responsible for recording, editting and uploading inclass lectures for Online learning students   
+                </p>
+                </div>
+                </div>
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Awesome Design Studio</h3>
-                  <p className="info">Senior UX Designer <span>•</span> <em className="date">March 2010 - Present</em></p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                  </p>
+                  <h3>Retail Business Services - Ahold Delhize</h3>
+                  <p className="info">Backend Developer Co-op<span>•</span> <em className="date">June 2019 - December 2019</em></p>
+                 <p>
+                 Developed RESTful APIs using NodeJs, MongoDB containerized using Docker, deployed on Azure
+                  .Implemented CI/CD pipelines using Azure Devops, created swagger documentations for APIs, Maintained code quality using SonarQube.
+                 </p>
                 </div>
               </div> {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Super Cool Studio</h3>
-                  <p className="info">UX Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
+                  <h3>Ellicium Solutions</h3>
+                  <p className="info">Sr. Software Developer <span>•</span> <em className="date">November 2017 - June 2018</em></p>
                   <p>
-                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                    ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  Developed large scale web application for windows based system.  Used Java Spring, Jquery, SQL server for development. Developed frontend screens using Jquery framework(KendoUI) and Ajax. 
+                  Created TIBCO BW processes for application integration. Used Git for source code managment. Followed Agile Software development methodology. Gained profiency in client communication. 
                   </p>
                 </div>
               </div> {/* item end */}
@@ -68,19 +73,18 @@ class Resume extends Component {
               <h1><span>Skills</span></h1>
             </div>
             <div className="nine columns main-col">
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                voluptatem sequi nesciunt.
+              <p> 
+              I have a strong hold over Java, Javascript. I have experience with MySQL, MongoDB, Redis on the database side. My work has successfully demonstrated building scalable, microservice-based software solutions that can solve complex business problems.
               </p>
               <div className="bars">
                 <ul className="skills">
-                  <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-                  <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-                  <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
-                  <li><span className="bar-expand css" /><em>CSS</em></li>
-                  <li><span className="bar-expand html5" /><em>HTML5</em></li>
-                  <li><span className="bar-expand jquery" /><em>jQuery</em></li>
+                  <li><span className="bar-expand java" /><em>Object Oriented Programming(Java, C++, C#)</em></li>
+                  <li><span className="bar-expand javascript" /><em>Javascript</em></li>
+                  <li><span className="bar-expand nodejs" /><em>Web Frameworks(NodeJS, Spring MVC)</em></li>
+                  <li><span className="bar-expand aws" /><em>Public Cloud platforms(AWS, Azure)</em></li>
+                  <li><span className="bar-expand sql" /><em>SQL</em></li>
+                  <li><span className="bar-expand nosql" /><em>NoSql</em></li>
+                  <li><span className="bar-expand agile" /><em>Agile</em></li>
                 </ul>
               </div>{/* end skill-bars */}
             </div> {/* main-col end */}

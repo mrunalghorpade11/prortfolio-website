@@ -7,9 +7,9 @@ class Footer extends Component {
           <div className="row">
             <div className="twelve columns">
               <ul className="social-links">
-                <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-                <li><a href="#"><i className="fa fa-skype" /></a></li>
+                <li><a href="https://www.facebook.com/mrunalghopade"><i className="fa fa-facebook" /></a></li>
+                <li><a href="https://www.linkedin.com/in/mrunal-ghorpade95/"><i className="fa fa-linkedin" /></a></li>
+                <li><a href="https://github.com/mrunalghorpade11"><i className="fa fa-github" /></a></li>
               </ul>
               <ul className="copyright">
                 <li>© Copyright 2014 CeeVee</li>

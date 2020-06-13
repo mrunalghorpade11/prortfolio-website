@@ -6,27 +6,25 @@ class About extends Component {
         <section id="about">
           <div className="row">
             <div className="three columns">
-              <img className="profile-pic" src="images/profilepic.jpg" alt="" />
+              <img className="profile-pic" src="images/profile.jpg" alt="" />
             </div>
             <div className="nine columns main-col">
               <h2>About Me</h2>
-              <p>I am Currently pursuing Information Systems at Northeastern University Boston. 
+              <p>I am currently a graduate student of Information Systems from Northeastern University expected to graduate in August 2020. I am specializing in the software development track
+                 I am a proactive and self-motivated person. I enjoy working in challenging environments that require me to work outside of my comfort zone.
               </p>
               <div className="row">
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
                     <span>Mrunal Ghorpade</span><br />
-                    <span>1167 Bolyston Stree, Apt 1<br />
-                      Boston, MA 02215 US
-                    </span><br />
                     <span>(857)308-6053</span><br />
                     <span>mrunal.ghorpade123@gmail.com</span>
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>
+                    <a href="static/Mrunal_Ghorpade.pdf" downlaod className="button"><i className="fa fa-download" />Download Resume</a>
                   </p>
                 </div>
               </div> {/* end row */}

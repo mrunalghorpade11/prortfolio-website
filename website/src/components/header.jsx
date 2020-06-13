@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-
+import Headerbackground from '../../public/images/transparent.png';
 class Header extends Component {
     render () {
       return (
-        <header id="home">
+        <header id="home"style={{backgroundImage: `url(${Headerbackground})`,opacity: 0.8}}>
           <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
@@ -11,21 +11,22 @@ class Header extends Component {
               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
               <li><a className="smoothscroll" href="#about">About</a></li>
               <li><a className="smoothscroll" href="#resume">Resume</a></li>
-              <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul> {/* end #nav */}
           </nav> {/* end #nav-wrap */}
-          <div className="row banner">
+          <div className="row banner" >
             <div className="banner-text">
-              <h1 className="responsive-headline">I'm Mrunal Ghorpade</h1>
-              <h3>I am masters student of <span>Information Systems</span> at Northeastern University.
-                I am an experienced software developer, with extensive work experience in <span>backend development</span>and <span>Cloud Technologies</span><a className="smoothscroll" href="#about"> start scrolling</a>
-                 <a className="smoothscroll" href="#about">about me</a>.</h3>
+            {/* <div class="col-sm-4">
+               {/* <img className="header-images" src="images/header.jpg" alt="" /> 
+            </div> */}
+              <h1 className="responsive-headline">Hello!</h1>
+              <h1>I'm Mrunal Ghorpade
+                 <a className="smoothscroll" href="#about"></a></h1>
               <hr />
               <ul className="social">
                 <li><a href="https://www.facebook.com/mrunalghopade"><i className="fa fa-facebook" /></a></li>
                 <li><a href="https://www.linkedin.com/in/mrunal-ghorpade95/"><i className="fa fa-linkedin" /></a></li>
                 <li><a href="https://github.com/mrunalghorpade11"><i className="fa fa-github"></i></a></li>
-                <li><a href="#"><i className="fa fa-skype" /></a></li>
+
               </ul>
             </div>
           </div>
