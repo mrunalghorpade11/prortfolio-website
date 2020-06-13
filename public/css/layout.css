@@ -21,8 +21,8 @@
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
-body { background: #0f0f0f; }
+@import url('http://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+body { background: #444444; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -66,7 +66,7 @@ header .header-images {
 header .banner-text { width: 96%; }
 header .banner-text h1 {
    font: 90px/1.1em 'Noto Serif', serif;
-   color: black;
+   color:#E85949;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
 }
@@ -142,7 +142,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    letter-spacing: 2.5px;
    margin: 0 auto;
    z-index: 100;
-   position: fixed;
+   position: absolute;
    left: 0;
    top: 0;
    opacity: 1;
@@ -186,7 +186,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #ffb318 }
 
 
 /* ------------------------------------------------------------------ */
@@ -259,7 +259,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #01B1B6;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -335,43 +335,43 @@ ul#nav li.current a { color: #F06000; }
 
 .java{
      width: 99%;
-     background:rgb(195, 125, 117);;
+     background:#FFD36B;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
 .javascript {
      width: 90%;
-     background: #c1f124;
+     background: #E85949;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
 .nodejs {
    width: 95%;
-   background: rgb(121, 188, 78);
+   background: #0C767B;
    -moz-animation: illustrator 2s ease;
    -webkit-animation: illustrator 2s ease;
 }
 .aws {
      width: 70%;
-     background: rgb(152, 117, 187);
+     background: #055169;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
 .sql {
      width: 90%;
-     background: yellow;
+     background:#FFD36B;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .nosql {
      width: 60%;
-     background: pink;
+     background: #E85949;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .agile {
      width: 80%;
-     background:rgb(88, 205, 113);
+     background:#055169;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
@@ -947,13 +947,13 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #444444;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: white; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -991,7 +991,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color:white;
 }
 
 footer .social-links li:first-child { margin-left: 0; }

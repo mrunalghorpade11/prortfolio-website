@@ -12,7 +12,7 @@ class Resume extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Northeastern University</h3>
+                  <h3>Northeastern University, Boston, USA</h3>
                   <p className="info">Masters in Information Systems <span>•</span> <em className="date">August 2020</em></p>
                   <p>
                     Relevant Courses : Network Structures and Cloud Computing , Application Engineering and Development, Web Development Tools and Methods, Big data Indexing technique, Development and Operations(DevOps), Database Managment and Design, Program Structures and Algorithms.   
@@ -21,7 +21,7 @@ class Resume extends Component {
               </div> {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Savitribai Phule Pune Univeristy</h3>
+                  <h3>Savitribai Phule Pune Univeristy, Pune, India</h3>
                   <p className="info">B.E Computer Engineering <span>•</span> <em className="date">June 2017</em></p>
                   <p>
                    Revelant Courses : Object Oriented Programming, Software Engineering, Complier Design, Theory Of Computation, Operating System Design, Networking, Microprocessor Architecture, Microprocessor Interfacing Techniques, Maths  
@@ -38,7 +38,7 @@ class Resume extends Component {
             <div className="nine columns main-col">
             <div className="row item">
                 <div className="twelve columns">
-                  <h3>Northeastern University</h3>
+                  <h3>Northeastern University, Boston</h3>
                   <p className="info">Online Program Technician<span>•</span> <em className="date">Jan 2019 - present</em></p>
                  <p>
                    Responsible for recording, editting and uploading inclass lectures for Online learning students   
@@ -47,7 +47,7 @@ class Resume extends Component {
                 </div>
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Retail Business Services - Ahold Delhize</h3>
+                  <h3>Retail Business Services - Ahold Delhize, Boston </h3>
                   <p className="info">Backend Developer Co-op<span>•</span> <em className="date">June 2019 - December 2019</em></p>
                  <p>
                  Developed RESTful APIs using NodeJs, MongoDB containerized using Docker, deployed on Azure
@@ -57,10 +57,10 @@ class Resume extends Component {
               </div> {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Ellicium Solutions</h3>
+                  <h3>Ellicium Solutions, Pune</h3>
                   <p className="info">Sr. Software Developer <span>•</span> <em className="date">November 2017 - June 2018</em></p>
                   <p>
-                  Developed large scale web application for windows based system.  Used Java Spring, Jquery, SQL server for development. Developed frontend screens using Jquery framework(KendoUI) and Ajax. 
+                  Developed large scale web applications for windows based systems.  Used Java Spring, Jquery, SQL server for development. Developed frontend screens using Jquery framework(KendoUI) and Ajax. 
                   Created TIBCO BW processes for application integration. Used Git for source code managment. Followed Agile Software development methodology. Gained profiency in client communication. 
                   </p>
                 </div>
