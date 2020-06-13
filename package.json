@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mrunalghorpade11.github.io/protfolio-website/website",
+  "homepage": "https://mrunalghorpade11.github.io/protfolio-website",
   "dependencies": {
     "gh-pages": "^3.0.0",
     "react": "^16.13.1",
