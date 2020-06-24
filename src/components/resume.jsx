@@ -82,13 +82,13 @@ class Resume extends Component {
             <div className="row item">
               <div className="twelve columns">
                 <h3>Covid-19 Research Volunteer Website</h3><h4><a href="http://skunks.ai/">http://skunks.ai/</a></h4>
-                <p>Lead for Source code managment and CI/CD. Worked on development using ReactJs, Nodejs, MongoDB. Deployes on AWS servers using Kubernetes</p>
+                <p>Lead for Source code managment and CI/CD. Worked on development using ReactJs, Nodejs, MongoDB. Deployed on AWS servers using Kubernetes</p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
                 <h3>Bill Managment System</h3><h4><a href="https://github.com/mrunalghorpade11/webapp">https://github.com/webapp/</a></h4>
-                <p> Developed RESI APIS in NodeJS, along with basic authentication to protect from unauthorized access. Build Infrastructure setup for networking and deployment using AWS cloudformation. Used Multiple AWS services like EC2, S3, CloudWatch, Lambda functions, codeDeploy, CloudFormation</p>
+                <p> Developed RESI APIs in NodeJS, along with basic authentication to protect from unauthorized access. Built Infrastructure setup for networking and deployment using AWS cloudformation. Used Multiple AWS services like EC2, S3, cloudWatch, lambda functions, codeDeploy, cloudFormation</p>
               </div>
             </div> {/* item end */}
             <div className="row item">
