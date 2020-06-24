@@ -81,19 +81,19 @@ class Resume extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>Covid-19 Research Volunteer Website</h3><h4><a href="http://skunks.ai/">http://skunks.ai/</a></h4>
+                <h3>Covid-19 Research Volunteer Website</h3><h6><a href="http://skunks.ai/">http://skunks.ai/</a></h6>
                 <p>Lead for Source code managment and CI/CD. Worked on development using ReactJs, Nodejs, MongoDB. Deployed on AWS servers using Kubernetes</p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Bill Managment System</h3><h4><a href="https://github.com/mrunalghorpade11/webapp">https://github.com/webapp/</a></h4>
+                <h3>Bill Managment System</h3><h6><a href="https://github.com/mrunalghorpade11/webapp">https://github.com/webapp/</a></h6>
                 <p> Developed RESI APIs in NodeJS, along with basic authentication to protect from unauthorized access. Built Infrastructure setup for networking and deployment using AWS cloudformation. Used Multiple AWS services like EC2, S3, cloudWatch, lambda functions, codeDeploy, cloudFormation</p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Prototype for E-commerse Website</h3><h4><a href="https://github.com/mrunalghorpade11/E-commerce-application-using-spring-hibernate">http://github.com/E-commersewebsite/</a></h4>
+                <h3>Prototype for E-commerse Website</h3><h6><a href="https://github.com/mrunalghorpade11/E-commerce-application-using-spring-hibernate">http://github.com/E-commersewebsite/</a></h6>
                 <p>Implemented using SpringMVC, Hibernate, Mysql. Used Singleton and factory design patters along with multithreading</p>
               </div>
             </div> {/* item end */}
