@@ -263,7 +263,7 @@ ul#nav li.current a { color: #ffb318 }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 30px/35px 'opensans-bold', sans-serif;
+   font: 27px/35px 'opensans-bold', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -275,7 +275,7 @@ ul#nav li.current a { color: #ffb318 }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 22px/35px 'librebaskerville-italic', serif;
+   font: 20px/35px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -307,12 +307,12 @@ ul#nav li.current a { color: #ffb318 }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 25px;
   	border-radius: 7px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: blue;
+   columns: #444444;;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -328,7 +328,7 @@ ul#nav li.current a { color: #ffb318 }
    padding-right: 24px;
   	background: rgb(6, 31, 28);
    display: inline-block;
-  	height: 42px;
+  	height: 25px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
@@ -978,6 +978,11 @@ footer .copyright li:before {
 }
 footer .copyright  li:first-child:before {
     display: none;
+}
+
+footer .contact-text{
+   font: 25px/30px 'opensans-bold', sans-serif;
+   color: white
 }
 
 /* social links */

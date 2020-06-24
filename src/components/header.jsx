@@ -23,7 +23,7 @@ class Header extends Component {
                  <a className="smoothscroll" href="#about"></a></h1>
               <hr />
               <ul className="social">
-                <li><a href="https://www.facebook.com/mrunalghopade"><i className="fa fa-facebook" /></a></li>
+                <li><a href="https://www.facebook.com/mrunalghopade/"><i className="fa fa-facebook" /></a></li>
                 <li><a href="https://www.linkedin.com/in/mrunal-ghorpade95/"><i className="fa fa-linkedin" /></a></li>
                 <li><a href="https://github.com/mrunalghorpade11"><i className="fa fa-github"></i></a></li>
 

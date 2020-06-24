@@ -6,6 +6,7 @@ class Footer extends Component {
       <footer>
         <div className="row">
           <div className="twelve columns">
+            <did className="contact-text">Find me on</did>
             <ul className="social-links">
               <li><a href="https://www.facebook.com/mrunalghopade"><i className="fa fa-facebook" /></a></li>
               <li><a href="https://www.linkedin.com/in/mrunal-ghorpade95/"><i className="fa fa-linkedin" /></a></li>
