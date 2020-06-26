@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Header from './components/header';
 import About from './components/about';
 import Resume from './components/resume';
-//import Sidebar from './components/sidebar';
-//import Portfolio from './components/portfolio';
 import Footer from './components/footer';
 import './App.css';
 
